@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/blog.css" />
+  </head>
+  <body class="bg-gray-100 p-4">
+    <header
+      class="m-8 p-8 bg-white box-border shadow-sm rounded-md w-11/12 mx-auto"
+    >
+      <nav class="flex justify-between items-center">
+        <div class="flex gap-4 justify-center items-center">
+          <img src="./assets/logo.png" alt="" />
+          <h1>Dev<span>Board</span></h1>
+        </div>
+        <div>
+          <button id="nav-btn" class="button rounded-md">Back To Desk</button>
+        </div>
+      </nav>
+    </header>
+    <main class="m-8">
+      <h1 class="text-2xl font-bold text-center">Blogs</h1>
+      <section>
+        <div class="bg-white p-8 m-8 rounded-lg">
+          <h1 class="text-xl font-bold">
+            Question-1: What are the different ways to select an element in the
+            DOM?
+          </h1>
+          <p class="my-8 text-xl">
+            There are multiple ways to select elements from the DOM. Here are
+            the most commonly used methods.
+          </p>
+          <p>
+            1.getElementById: Selects a specific element.
+            <br />
+            2.getElementsByClassName: Selects all elements with a specific
+            class.
+            <br />
+            3.getElementsByTagName: Selects all elements with a specific tag
+            name.
+            <br />
+            4.querySelector: Selects the first element that matches a CSS
+            selector.
+            <br />
+            5.querySelectorAll: Selects all elements that match a CSS selector.
+            etc
+          </p>
+        </div>
+        <div class="bg-white p-8 m-8 rounded-lg">
+          <h1 class="text-xl font-bold mb-8">
+            Question-2: What is the difference between innerHTML, innerText, and
+            textContent ?
+          </h1>
+          <p>innerHTML Gets or sets HTML content inside an element.</p>
+          <p>
+            innerText Retrieves or sets only the visible text inside an element.
+          </p>
+          <p>
+            textContent Retrieves or sets all text content inside an element.
+          </p>
+        </div>
+        <div class="bg-white p-8 m-8 rounded-lg">
+          <h1 class="text-xl font-bold mb-8">
+            Question-3: What is event delegation in the DOM?
+          </h1>
+          <p>
+            Event delegation is a technique in JavaScript where instead of
+            adding event listeners to multiple child elements.
+          </p>
+        </div>
+        <div class="bg-white p-8 m-8 rounded-lg">
+          <h1 class="text-xl font-bold mb-8">
+            Question-4: What is event bubbling in the DOM?
+          </h1>
+          <p>
+            Event bubbling is a process in the DOM where an event triggered on a
+            child element propagates (travels) up to its parent elements.
+          </p>
+        </div>
+        <div class="bg-white p-8 m-8 rounded-lg">
+          <h1 class="text-xl font-bold mb-8">
+            Question-5: How do you create, add, and remove elements using
+            JavaScript?
+          </h1>
+          <p>document.createElement(): Creates an element.</p>
+          <br />
+          <p>appendChild(): Adds a last child.</p>
+          <br />
+          <p>append(): Adds multiple elements.</p>
+          <br />
+          <p>append(): Adds multiple elements.</p>
+          <br />
+          <p>removeChild(): Removes a specific child.</p>
+          <br />
+          <p>remove(): Removes itself.</p>
+          <br />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./scripts/blog.js"></script>
+  </body>
+</html>
